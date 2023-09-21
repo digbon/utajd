@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Generador de Letras</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand text-light font-weight-bold" href="#">Logo</a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <div class="navbar-nav ms-auto">
+          <ul class="navbar-nav me-auto mb-2">
+            <li class="nav-item">
+              <a class="nav-link text-light font-weight-bold" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light font-weight-bold" href="#">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light font-weight-bold" href="#">Acerca de</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light font-weight-bold" href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+    <div class="editor">
+      <label for="formulario" id="tituloperosn" class="form-label">Area de Texto</label>
+      <textarea id="textInput"></textarea>
+      <button id="processButton">Procesar</button>
+      
+    
+    <div class="output" id="cajasperso">
+      <div id="originalText" class="form-control  mb-2 output-text"></div>
+      <div id="greenText" class="form-control mb-2 output-text"></div>
+      <div id="redText" class="form-control mb-2 output-text"></div>
+      <div id="purpleText" class="form-control mb-2 output-text"></div>
+    </div>
+    
+    <div class="output mt-4" id="cajasperso">
+      <div class="row">
+        <div class="col-md-6 mb-2 mb-md-0"> <!-- En pantallas medianas y superiores, aplica un margen inferior -->
+          <select id="colorSelect" class="form-select">
+            <option value="green">Verde</option>
+            <option value="red">Rojo</option>
+            <option value="purple">Morado</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <button id="downloadButton" class="btn btn-success">Descargar</button>
+        </div>
+      </div>
+    </div>
+    
+
+
+    <script src="js/anima.js"></script>
+
+</body>
+</html>
