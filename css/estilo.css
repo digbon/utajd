@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&family=Noto+Sans&family=Raleway&family=Varela&display=swap');
+
+
+
+#output .caja {
+    display: block;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px rgba(255,255,255, 0.5);
+    background-color: #E0E5EC;
+    font-family: "Raleway", sans-serif;
+}
+
+.verde,
+.rojo,
+.morado {
+    display: block;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 5px;
+    box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001,
+   inset 0px 0px 0px 0px #fff9,
+   inset 0px 0px 0px 0px #0001,
+   inset 0px 0px 0px 0px #fff9,        inset 0px 0px 0px 0px #0001;
+ transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
+ font-family: "Raleway", sans-serif;
+ text-align: center;
+ justify-content: center;
+
+}
+
+.verde {
+    color: green;
+    padding: 10px;
+    font-family: "Raleway", sans-serif;
+}
+
+.rojo {
+    color: red;
+    padding: 10px;
+    font-family: "Raleway", sans-serif;
+}
+
+.morado {
+    color: purple;
+    padding: 10px;
+    font-family: "Raleway", sans-serif;
+}
+
+.etiqueta {
+    color: gray;
+    display: block;
+    text-align: center;
+}
+
+.rojo,
+.morado {
+    cursor: pointer;
+}
+
+.copyIcon {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+.resultado {
+   
+    width: 100%; 
+    height: 100px; 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+}
+
+
+.rotate {
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+body{
+    background-color: #e1e6ec !important; 
+}
+
+#tituloprincpa{
+    color: #a1a1a1;
+    font-family: "Raleway", sans-serif;
+    padding: 10px;
+}
+
+#planoprin{
+    
+    background-color: #e1e6ec; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 12px;
+    box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+
+}
+
+#processBtn{
+    background: #e0e5ec !important;
+    box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001,
+   inset 0px 0px 0px 0px #fff9,
+   inset 0px 0px 0px 0px #0001,
+   inset 0px 0px 0px 0px #fff9,        inset 0px 0px 0px 0px #0001;
+   border: none;
+   height: 80px;
+  width: 250px;
+  font-size: 25px;
+  color: #ee4056;
+}
+
+#processBtn:active{
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+}
+
+#processBtn > .bi {
+    color: #00acee;
+    font-weight: bold;
+}
+
+#exportBtn{
+    background: #e0e5ec !important;
+    box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001,
+   inset 0px 0px 0px 0px #fff9,
+   inset 0px 0px 0px 0px #0001,
+   inset 0px 0px 0px 0px #fff9,        inset 0px 0px 0px 0px #0001;
+   border: none;
+   height: 50px;
+  width: 300px;
+  font-size: 25px;
+  color: #ee4056;
+  margin-right: 10px;
+}
+
+#exportBtn:active{
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+}
+
+#exportBtn > .bi{
+    color: #00acee;
+    font-weight: bold;
+}
+
+#inputText{
+    
+    border: none;
+    box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px rgba(255,255,255, 0.5);
+    background-color: #E0E5EC;
+    border-radius: 4px;
+    font-family: "Raleway", sans-serif;
+}
